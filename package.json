@@ -1,0 +1,35 @@
+{
+  "name": "my-vue-app",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --mode development",
+    "build": "vite build --mode production",
+    "test": "vite build --mode test",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.6",
+    "@wangeditor/editor": "^5.1.10",
+    "@wangeditor/editor-for-vue": "^5.1.12",
+    "axios": "^0.27.2",
+    "dayjs": "^1.11.3",
+    "docx-preview": "^0.1.11",
+    "element-plus": "^2.2.9",
+    "mitt": "^3.0.0",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.0.14",
+    "qrcode.vue": "^3.3.3",
+    "three": "^0.143.0",
+    "vue": "^3.2.25",
+    "vue-router": "^4.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "fs-extra": "^10.1.0",
+    "sass": "^1.53.0",
+    "unplugin-auto-import": "^0.9.3",
+    "unplugin-vue-components": "^0.21.1",
+    "vite": "^2.9.9"
+  }
+}
